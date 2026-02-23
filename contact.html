@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ติดต่อเรา - มหาอร่อยซีฟู้ด</title>
+    
+    <!-- Google Fonts: Kanit -->
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            yellow: '#FFDF00',
+                            dark: '#000000'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Kanit', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+    <!-- Navbar (Simplified for Contact Page - Black Style for consistency) -->
+    <nav class="w-full bg-black text-white p-4 shadow-md">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-2 text-xl font-bold text-brand-yellow">
+                 <img src="logo.png" onerror="this.src='https://cdn-icons-png.flaticon.com/512/3050/3050257.png'" alt="Maha Aroi Logo" class="h-10 w-auto">
+                มหาอร่อยซีฟู้ด
+            </a>
+            <a href="index.html" class="hover:text-brand-yellow transition">
+                <i class="fa-solid fa-arrow-left mr-2"></i>กลับหน้าหลัก
+            </a>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="bg-brand-yellow/10 py-16 text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 text-black">ติดต่อเรา</h1>
+            <p class="text-xl text-gray-600">เรายินดีให้บริหารและแสดงความิดเห็นโดยตรง ที่ 061-3242652 (นนธณัท)</p>
+        </div>
+    </header>
+
+    <!-- Contact Content -->
+    <section class="py-16">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <div class="grid md:grid-cols-2 gap-12 bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100">
+                
+                <!-- Info Side (Yellow Background) -->
+                <div class="bg-brand-yellow p-10 flex flex-col justify-center text-black">
+                    <h2 class="text-2xl font-bold mb-8">ช่องทางการติดต่อ</h2>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-black text-brand-yellow rounded-full flex items-center justify-center flex-shrink-0 text-xl">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="font-bold text-lg">ที่อยู่ร้าน</h3>
+                                <p class="text-sm opacity-90 leading-relaxed">
+                                    136/506 ซอยหมู่บ้านหนองแก <br>
+                                    ต.หนองแก อ.หัวหิน <br>
+                                    จ.ประจวบฯ 77110
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-black text-brand-yellow rounded-full flex items-center justify-center flex-shrink-0 text-xl">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="font-bold text-lg">เบอร์โทรศัพท์</h3>
+                                <p class="text-sm opacity-90">
+                                    <a href="tel:032900419" class="hover:underline">032-900419</a>, 
+                                    <a href="tel:0613242652" class="hover:underline">061-3242652</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-black text-brand-yellow rounded-full flex items-center justify-center flex-shrink-0 text-xl">
+                                <i class="fa-brands fa-line"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="font-bold text-lg">Line Official</h3>
+                                <p class="text-sm opacity-90">
+                                    <a href="https://line.me/ti/p/@mahaaroihh102" target="_blank" class="hover:underline">@mahaaroihh102</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-10 pt-8 border-t border-black/10">
+                         <h3 class="font-bold mb-4">เวลาทำการ</h3>
+                         <div class="flex justify-between text-sm mb-2">
+                             <span>ครัวไทย-อีสาน</span>
+                             <span class="font-semibold">11.00 - 22.00 น.</span>
+                         </div>
+                         <div class="flex justify-between text-sm">
+                             <span>บุฟเฟต์หมูกระทะ</span>
+                             <span class="font-semibold">16.00 - 23.00 น.</span>
+                         </div>
+                    </div>
+                </div>
+
+                <!-- Map Side -->
+                <div class="h-96 md:h-auto relative bg-gray-100">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.577907579874!2d99.94868237510067!3d12.540456187770512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30fdabd71a812389%3A0xc3f8373a017849e7!2z4Lih4Lir4Liy4Lit4Lij4LmI4Lit4Lii4LiL4Li14Lif4Li54LmJ4LiU!5e0!3m2!1sth!2sth!4v1715421234567!5m2!1sth!2sth" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        class="absolute inset-0">
+                    </iframe>
+                    <div class="absolute bottom-4 right-4">
+                        <a href="https://maps.app.goo.gl/jP4U1JQXm7ucvuU7A" target="_blank" class="bg-white text-black px-4 py-2 rounded-lg shadow-lg font-bold text-sm hover:bg-gray-50 flex items-center">
+                            <i class="fa-solid fa-map-location-dot mr-2 text-brand-yellow"></i> เปิดใน Google Maps
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black text-white text-center py-6 mt-auto">
+        <p class="text-sm opacity-50">&copy; 2024 บริษัท มหาอร่อยซีฟู้ด จำกัด. สงวนลิขสิทธิ์.</p>
+    </footer>
+
+</body>
+</html>
